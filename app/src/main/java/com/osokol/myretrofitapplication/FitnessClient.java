@@ -6,7 +6,7 @@ import retrofit.http.GET;
 /**
  * Created by osokol on 09.11.2015.
  */
-public interface FirnessClient {
+public interface FitnessClient {
     @GET("/api/data")//{owner}/{repo}/sports")
     Call<AppData> getAppData();
           //  @Path("owner") String owner,

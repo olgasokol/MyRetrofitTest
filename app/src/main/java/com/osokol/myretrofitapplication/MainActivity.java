@@ -18,7 +18,7 @@ public class MainActivity extends AppCompatActivity {
 
     public void main() {
         // Create a very simple REST adapter which points the  endpoint.
-        FirnessClient client = ServiceGenerator.createService(FirnessClient.class);
+        FitnessClient client = ServiceGenerator.createService(FitnessClient.class);
         Timber.plant(new Timber.DebugTree());
         Call<AppData> call = client.getAppData();
 
